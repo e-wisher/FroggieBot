@@ -1,0 +1,2 @@
+# FroggieBot
+Discord bot
