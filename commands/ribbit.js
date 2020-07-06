@@ -1,8 +1,13 @@
 //ribbit
+
 module.exports = {
     name: 'ribbit',
     description: "ribbit!",
-    execute(message, args){
+    working: true,
+    cost: 1,
+    args: false,
+    usage: "!ribbit",
+    execute(message){
         message.channel.send("Ribbit!");
     }
 } 
